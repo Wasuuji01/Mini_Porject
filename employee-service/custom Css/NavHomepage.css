@@ -1,0 +1,178 @@
+
+
+/* Navbar style */
+.navbar {
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 0 10px;
+  color: white;
+}
+
+.navbar h2 {
+  font-size: 30px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar ul li{
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navbar ul li:hover {
+  color: #ffffff;
+  background-color: #02b1e289;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.dropdown {
+  display: none;
+}
+
+
+ul li:hover .dropdown {
+  display: block;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.a{
+  background-color: #000000;
+}
+
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown ul li {
+  display: block;
+}
+
+
+
+/* General Reset */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Style */
+body {
+  background-image: url("../images/home.jpg");
+  background-size: cover;
+  color: #ccc8c8;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Style */
+.header {
+  background-color: #024545c6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+/* Introduction Section */
+.introduction {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.introduction p {
+  font-size: 1em;
+  color: #d0cdcd;
+}
+
+/* Features Section */
+.features {
+  padding: 20px;
+  margin: 20px;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.features li {
+  font-size: 1em;
+  color: #dddada;
+  padding: 5px 0;
+}
+
+/* Benefits Section */
+.benefits {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.benefits h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.benefits p {
+  font-size: 1em;
+  color: #ececec;
+  margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+.call-to-action {
+  text-align: center;
+  padding: 20px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.call-to-action h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.call-to-action p {
+  font-size: 1.2em;
+}
+
+
+
+

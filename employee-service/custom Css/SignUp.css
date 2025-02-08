@@ -1,0 +1,70 @@
+.Register{
+    background-image: url("../images/registerBg.jpeg");
+    background-size:cover;
+    background-position: right;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.register-form{
+    margin-right: 55%;
+    width: 400px;
+    height: 550px;
+    background-color: rgba(2, 84, 177, 0.541);
+    border-radius: 15px;
+    justify-content: left;
+    padding: 20px;
+    
+    
+}
+
+.Rbutton{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #c8e9fd;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:#ffffff;
+    background-color:rgba(2, 84, 177, 0.481);
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/* label{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: left;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #c8e9fd;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #242222;
+    
+}
+
+
+
+button:hover{
+    background-color: #ffffff;
+    color: rgb(12, 29, 2);
+    font-size:large;
+    font-weight: bold;
+    
+} */
